@@ -50,10 +50,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "sdl_wrapper"
+version = "0.1.0"
+source = "git+https://github.com/zkwinkle/sdl_wrapper#dc97ade11fe86129d995169d95f9a0556ea8450a"
+dependencies = [
+ "sdl2",
+]
+
+[[package]]
 name = "tarea2"
 version = "0.1.0"
 dependencies = [
- "sdl2",
+ "sdl_wrapper",
 ]
 
 [[package]]

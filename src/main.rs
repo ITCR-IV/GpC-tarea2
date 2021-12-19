@@ -1,5 +1,4 @@
 mod constants;
-mod sdl_wrapper;
 
 use constants::*;
 use sdl_wrapper::{Event, Keycode, ScreenContextManager};
@@ -7,7 +6,7 @@ use std::time::SystemTime;
 
 fn main() {
     // Inicializar context manager de la ventana
-    let mut screen = ScreenContextManager::new("Tarea1");
+    let mut screen = ScreenContextManager::new("Tarea1", WINDOW_WIDTH, WINDOW_HEIGHT);
 
     'main: loop {
         // Tomar segundos ( módulo 256 )
