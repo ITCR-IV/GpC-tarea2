@@ -67,7 +67,7 @@ fn main() {
     };
 
     // Probar diferentes funciones
-    benchmark(ScreenContextManager::naive_line, "naive approach");
+    benchmark(ScreenContextManager::naive_line, "1");
     sleep(Duration::from_secs(1));
     benchmark(ScreenContextManager::incremental_line, "incremental");
     sleep(Duration::from_secs(1));
