@@ -6,5 +6,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sdl_wrapper = { git = "https://github.com/zkwinkle/sdl_wrapper" }
+sdl_wrapper = { git = "https://github.com/zkwinkle/sdl_wrapper" , tag = "v0.1.0" }
 rand = "0.8.0"
